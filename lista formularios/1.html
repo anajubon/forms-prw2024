@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="1.php" method= "post">
+        <span>
+            <label for="som">Somar</label>
+            <input type="radio" name="op" id="op" value="som"><!--value é o que vai ser mandado para o php-->
+        </span>
+        <span>
+            <label for="sub">Subtrair</label>
+            <input type="radio" name="op" id="op" value="sub" >
+        </span>
+        <span>
+            <label for="div">Dividir</label>
+            <input type="radio" name="op" id="op" value="div">
+        </span>
+        <span>
+            <label for="mul">Multiplicar</label>
+            <input type="radio" name="op" id="op" value="mul">
+        </span>
+        
+        <div>
+            <label for="n1'">Número 1:</label>
+            <input type="number" step="0.01" name="n1" id="n1">
+        <div>
+            <label for="n2">Número 2:</label>
+            <input type="number" step="0.01" name="n2" id="n2">
+        </div>
+        
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
