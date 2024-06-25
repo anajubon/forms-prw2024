@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="11.php" method="post">
+        <label for="prontuario">Prontuário:</label>
+        <input type="text" id="prontuario" name="prontuario"><br><br>
+      
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+      
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="15" max="75"><br><br>
+      
+        <label for="periodo">Período:</label>
+        <select id="periodo" name="periodo">
+      
+          <option value="">Selecione</option>
+          <option value="V-Vespertino">V-Vespertino</option>
+          <option value="N-Noturno">N-Noturno</option>
+      
+        </select><br><br>  <label for="modulo">Módulo:</label>
+        <input type="number" id="modulo" name="modulo" min="1" max="4"><br><br>
+      
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
